@@ -22,6 +22,6 @@ public interface EmpleadoDao
 
     // Apunte en la interface del método "delete"
     // Que recibe un argumento del tipo EmpleadoDto y devuelve un int
-    public Integer delete(Integer id) throws SQLException;
+    public Integer delete(EmpleadoDto empleado) throws SQLException;
 
 }
