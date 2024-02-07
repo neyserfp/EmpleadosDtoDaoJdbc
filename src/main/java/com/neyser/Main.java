@@ -7,7 +7,6 @@ import com.neyser.domain.EmpleadoDto;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -19,7 +18,6 @@ public class Main {
         try
         {
             conexion  = Connect.getConnection();
-
             if(conexion.getAutoCommit())
             {
                 conexion.setAutoCommit(false);
